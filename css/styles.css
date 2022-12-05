@@ -53,7 +53,6 @@ ul {
     text-decoration: none;
 }
 .main-nav {
-    width: 1260px;
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
@@ -137,14 +136,12 @@ color: var(--dark-color);
 }
 .hero {
     padding-top: 192px;
-    padding-left: 474px;
-    padding-right: 474px;
     padding-bottom: 291px;
 
     background-color: var(--dark-color);
 }
 .hero-title {
-    width: 492px;
+    width: 480px;
     padding-bottom: 48px;
     margin: 0 auto 48px auto;
   
@@ -307,10 +304,11 @@ padding-bottom: 120px;
 }
 .footer {padding-top: 100px;
     padding-left: 158px;
-    margin: 0 auto;
+    margin: 0 auto;}
 
-    background-color: var(--dark-color);
-}
+.fon-footer {
+    background-color: var(--dark-color);}
+
 .web-footer {
     color: var(--primary-brand-color);
     font-family: 'Raleway';
